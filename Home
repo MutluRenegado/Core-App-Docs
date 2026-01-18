@@ -1,1 +1,30 @@
+# Core Platform Wiki (Phase 1)
+
+Welcome to the Core Platform wiki.
+
+This project is a Core + Modules system inspired by Odoo:
+- **Core** provides the runtime (workspace context, app registry, install store, and app runner).
+- **Modules/Apps** are optional features registered into the core.
+- **Widgets** (Phase 1 concept) are embeddable UI blocks that modules can provide later.
+
+## Quick Links
+- [Features](./Features.md)
+- [Getting Started](./Getting-Started.md)
+- [Architecture](./Architecture.md)
+- [Control Center](./Core-Control-Center.md)
+- [Apps & Modules](./Apps-and-Modules.md)
+- [Widgets](./Widgets.md)
+- [Route Bridge & Generator](./Route-Bridge-and-Generator.md)
+- [Roadmap](./Roadmap.md)
+- [Troubleshooting](./Troubleshooting.md)
+
+## Phase 1 Scope
+Phase 1 focuses on a working core runtime with:
+- App registry
+- Local installation (per workspace)
+- Enable/disable state
+- Workspace app gate/runner
+- Control Center dashboard (admin)
+
+No billing, no Firestore, no Stripe enforcement in Phase 1.
 
